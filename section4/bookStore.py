@@ -8,9 +8,13 @@ if bookShip == 'Y' or bookShip == 'y' or bookShip == 'Yes' or bookShip == 'yes' 
     bookShip = 'Free'
 else:
     bookShip = 'Non free'
-print(f'Book name: {bookTitle}')
-print(f'ISBN: {bookISBN}')
-print(f'Price: {bookPrice} USD')
-print(f'Shipment: {bookShip}')
+
+# Triple apostrophe is used to declare a multi-line string
+
+print(f'''Book name: {bookTitle}
+ISBN: {bookISBN}
+Price: {bookPrice} USD
+Shipment: {bookShip}
+''')
 
 # To be complemented
