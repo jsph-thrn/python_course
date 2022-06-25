@@ -1,4 +1,4 @@
-# Based on getAge.py
+# Based on getAge.py flowchart
 
 myAge = int(input("Insert your age: "))
 if (myAge >= 18):
